@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>images/back.jpg</file>
+        <file>images/back2.jpg</file>
+        <file>images/back3.jpg</file>
+        <file>images/back4.jpg</file>
+        <file>images/back5.jpg</file>
+        <file>images/infomation.jpeg</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>images/camera.ico</file>
+        <file>images/exit.ico</file>
+        <file>images/gray.ico</file>
+        <file>images/help.ico</file>
+        <file>images/image.ico</file>
+        <file>images/ips.ico</file>
+        <file>images/open.ico</file>
+        <file>images/qt.ico</file>
+        <file>images/save.ico</file>
+        <file>images/saveas.ico</file>
+        <file>images/web.ico</file>
+    </qresource>
+    <qresource prefix="/camera">
+        <file>images/balance.ico</file>
+        <file>images/cloud.ico</file>
+        <file>images/custom.ico</file>
+        <file>images/flash.ico</file>
+        <file>images/fluorestent.ico</file>
+        <file>images/shadow.ico</file>
+        <file>images/sun.ico</file>
+        <file>images/tungsten.ico</file>
+    </qresource>
+    <qresource prefix="/control">
+        <file>images/grab.ico</file>
+        <file>images/start.ico</file>
+        <file>images/stop.ico</file>
+    </qresource>
+</RCC>

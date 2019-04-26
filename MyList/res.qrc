@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/new/icon">
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/paste.png</file>
+        <file>images/butterfly.png</file>
+        <file>images/butterfly.ico</file>
+    </qresource>
+</RCC>

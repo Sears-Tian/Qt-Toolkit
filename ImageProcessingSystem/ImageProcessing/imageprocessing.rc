@@ -1,0 +1,40 @@
+﻿IDI_ICON ICON DISCARDABLE "images/ips.ico"
+
+#if defined(UNDER_CE)
+    #include <WinBase.h>
+#else
+    #include <Windows.h>
+#endif
+
+VS_VERSION_INFO     VERSIONINFO
+  FILEVERSION       1,0,0,2
+  PRODUCTVERSION    1,0,0,2
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+#ifdef _DEBUG
+ FILEFLAGS VS_FF_DEBUG
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "Ocean University of China"
+            VALUE "FileDescription", "ImageProcessing"
+            VALUE "FileVersion",     "1.0.0.2"
+            VALUE "InternalName",    "ImageProcessing.exe"
+            VALUE "LegalCopyright", "Copyright(C) 2019 Prof.Wang Lab, All rights reserved."
+            VALUE "OriginalFilename","ImageProcessing.exe"
+            VALUE "ProductName", "Image Processing System"
+            VALUE "ProductVersion",  "1.0.0.2"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0804, 1200
+    END
+END
